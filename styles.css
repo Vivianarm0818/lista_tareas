@@ -1,0 +1,32 @@
+* {
+    font-family:Arial, sans-serif;
+    color: black;
+}
+
+#titulo-principal {
+    font: size 24px; 
+    text-transform:uppercase;
+    font-weight:bold;
+    text-align: center;
+}
+
+.listas-sin-vineta {
+    list-style-type:none;
+    padding: none;
+    marker: none;
+}
+
+li {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: solid 1px lightgrey;
+}
+li:hover {
+    background-color: lightyellow;
+}
+li:focus {
+    background-color: lightcyan;
+}
+.true {
+    text-decoration: line-through;
+}
